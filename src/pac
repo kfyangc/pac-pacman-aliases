@@ -116,6 +116,7 @@ Usage: pac <command> [options]
 
 Commands:
     upgrade                         Upgrade all installed packages
+    local-install <pkg>             Install a new package locally
     install <pkg>                   Install a new package
     remove <pkg>                    Remove an installed package
            --purge                  Remove package and its configuration files

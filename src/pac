@@ -192,7 +192,7 @@ case "$1" in
             error_and_exit "install"
         fi
         prompt_for_sudo
-        $SUDO pacman -S "$@" $NOCONFIRM
+        $SUDO pacman -S --needed "$@" $NOCONFIRM
     ;;
     remove)
         shift
